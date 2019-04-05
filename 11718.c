@@ -3,7 +3,7 @@
 int main(){
 	
 	char input[101];
-	int count=1;
+	int count=0;
 	
 	while(gets(input) && count<=100 ){
 		if (input[0]==NULL)
